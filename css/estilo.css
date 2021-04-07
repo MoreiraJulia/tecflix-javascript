@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto Mono',monospace;
-  text-align:center;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align:center; 
   background-image: url('../img/fundo.png');
   background-color: #000000;
   background-size: cover;
@@ -9,16 +9,37 @@ body {
 }
 
 .container {
-  text-align: center;
+  text-align: center; 
   padding: 20px;
 }
 
 .page-title {
+  text-align: center;
   color: #ffffff;
   margin: 0 0 5px;
 }
 
-
 body > img {
   margin: 0 10px;
 }
+
+.series img,
+.filmes img{
+  width: 250px; 
+  padding: 2vh; 
+}
+
+.series,
+.filmes{
+  color: #ffffff; 
+  display: inline-block;
+}
+
+h2{
+  text-align: left;
+  color: #ffffff;
+}
+
+
+
+
